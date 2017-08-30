@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Rung - O blog do Rung</title>
+    <title>Rung - O blog do Rung</title>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='oih-style-css' href='https://www.rung.com.br/blog/wp-content/plugins/opt-in-hound/assets/css/style-front-opt-in-hound.css?ver=1.2.0'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='dpsp-frontend-style-css' href='https://www.rung.com.br/blog/wp-content/plugins/social-pug/assets/css/style-frontend.css?ver=4.8.1'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='material-lite-goole-font-css' href='https://fonts.googleapis.com/css?family=Roboto%3Aregular%2Cbold%2Citalic%2Cthin%2Clight%2Cbolditalic%2Cblack%2Cmedium&#038;lang=en&#038;ver=4.8.1'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='material-lite-material-icons-css' href='https://fonts.googleapis.com/icon?family=Material+Icons&#038;ver=4.8.1'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='material-lite-style-css' href='https://www.rung.com.br/blog/wp-content/themes/material-lite//style.css?ver=4.8.1'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='material-lite-mdl-css-css' href='https://www.rung.com.br/blog/wp-content/themes/material-lite/assets/vendor/mdl/material.min.css?ver=4.8.1'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='material-lite-common-css-css' href='https://www.rung.com.br/blog/wp-content/themes/material-lite/assets/css/common.css?ver=4.8.1'
+        type='text/css' media='all' />
+    <style type="text/css" data-source="Social Pug">
+        @media screen and ( max-width: 720px) {
+            .dpsp-content-wrapper.dpsp-hide-on-mobile {
+                display: none !important;
+            }
+        }
+
+        .site-width {
+            max-width: 1080px;
+        }
+
+        @import url(https://fonts.googleapis.com/css?family=Lato);
+        @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+        /* Header */
+
+        a:hover {
+            color: #ff4081 !important;
+            opacity: 0.5;
+        }
+
+        .site-header {
+            background-color: #333 !important;
+        }
+
+        .mdl-button--fab.mdl-button--colored {
+            background-color: #333;
+        }
+
+        .mdl-button--fab.mdl-button--colored:hover {
+            background-color: #152849;
+        }
+        /* Logo */
+
+        .site-title-wrap img {
+            width: 276px;
+            height: 70px !important;
+        }
+        /* Caixa de pesquisa */
+
+        .searchform {
+            width: 245px;
+            float: right;
+            margin-right: 16px;
+        }
+
+        #searchform .mdl-textfield {
+            width: 170px;
+            margin-left: 0;
+            margin-right: 10px;
+        }
+        /* Hs */
+
+        h1 {
+            font-size: 24px !important;
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 18px !important;
+            margin: -5px 0 10px 0;
+        }
+
+        h3 {
+            font-size: 16px !important;
+            margin: -5px 0 10px 0;
+        }
+
+        h4 {
+            font-size: 14px !important;
+            margin: -5px 0 10px 0;
+        }
+
+        h5 {
+            font-size: 12px !important;
+            margin: -5px 0 10px 0;
+        }
+
+        h6 {
+            font-size: 10px !important;
+            margin: -5px 0 10px 0;
+        }
+
+        .entry-thumb {
+            display: none;
+        }
+        /* Título do widget */
+
+        h3.widget-title {
+            font-size: 18px !important;
+            font-weight: bold;
+        }
+        /* Categorias */
+
+        li.cat-item a:hover {
+            font-weight: bold;
+        }
+        /* Rodapé */
+
+        .mdl-grid a:hover {
+            color: #fff;
+        }
+        /* Menu site */
+
+        .menu-sobre-o-rung-container a {
+            color: #fff !important;
+        }
+
+        .menu-sobre-o-rung-container a:hover {
+            color: #e1e1e1;
+        }
+
+        .menu-item-56 a {
+            color: #55A44E !important;
+        }
+
+        .menu-item-56 a:hover {
+            color: #ff4081 !important;
+        }
+        /* Navigation */
+
+        .page-nav {
+            text-align: center;
+        }
+        /* Barra de redes sociais */
+
+        .social-icons {
+            background-color: #292929 !important;
+        }
+        /* Footer */
+
+        .mdl-mega-footer {
+            background-color: #333;
+        }
+
+        .site-info {
+            background-color: #292929;
+        }
+
+        .site-info a {
+            color: #9e9e9e;
+        }
+        /* Alterações do Fabiano */
+
+        .entry-summary,
+        .entry-summary p {
+            height: 75px;
+            overflow: hidden;
+        }
+
+        .entry-summary p {
+            margin: 0;
+        }
+
+        .gm-card.mdl-card .mdl-card__supporting-text h1,
+        .post.mdl-card .mdl-card__supporting-text h1 {
+            margin-bottom: 10px;
+            line-height: 1.2;
+        }
+
+        .gm-card.mdl-card .mdl-card__supporting-text,
+        .post.mdl-card .mdl-card__supporting-text {
+            flex-grow: 0;
+            webkit-flex-grow: 0;
+            -webkit-box-flex: 0;
+        }
+
+        .mdl-card a {
+            text-align: right;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+
+        .mdl-card a span.link-span {
+            color: #FFF;
+            background-color: #55A44E;
+            padding: 10px 20px;
+            margin-right: 30px;
+        }
+
+        .post.mdl-card header .entry-thumbnail img,
+        .page.mdl-card header .entry-thumbnail img,
+        .comments-area.mdl-card header .entry-thumbnail img,
+        .gm-card.mdl-card header .entry-thumbnail img,
+        .attachment.mdl-card header .entry-thumbnail img {
+            min-height: auto;
+        }
+
+        .entry-thumbnail {
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            height: 100%;
+        }
+
+        .mdl-layout__content {
+            overflow-x: visible !important;
+            overflow-y: visible !important;
+        }
+
+        @media (min-width: 840px) {
+            body.search .post.mdl-card,
+            body.blog .post.mdl-card {
+                max-height: none !important;
+            }
+        }
+
+        @media (max-width: 840px) {
+            .site-header .img-logo {
+                max-height: none;
+            }
+            .searchform {
+                text-align: center;
+                float: none;
+                display: inline-block;
+                margin: 22px auto;
+            }
+        }
+
+        @media screen and (max-width: 850px) {
+            .mdl-layout__header {
+                min-height: auto;
+            }
+        }
+
+        @media (max-width: 479px) {
+            .entry-thumbnail {
+                height: 200px;
+            }
+        }
+
+        .mdl-mini-footer--social-btn {
+            color: #fff !important;
+        }
+
+        .footer-social-icons {
+            width: 300px;
+            display: inline-block;
+            margin: 0 auto;
+        }
+
+        footer .social-icons {
+            padding: 0;
+            height: auto;
+        }
+
+        .social-icon {
+            color: #fff;
+        }
+
+        ul.social-icons {
+            margin-bottom: 10px;
+        }
+
+        .social-icons li {
+            vertical-align: top;
+            display: inline;
+            height: 100px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .fa-facebook {
+            padding: 10px 14px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+            background-color: #292929;
+        }
+
+        .fa-facebook:hover {
+            background-color: #3d5b99;
+        }
+
+        .fa-twitter {
+            padding: 10px 12px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+            background-color: #292929;
+        }
+
+        .fa-twitter:hover {
+            background-color: #00aced;
+        }
+
+        .fa-youtube {
+            padding: 10px 14px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+            background-color: #292929;
+        }
+
+        .fa-youtube:hover {
+            background-color: #e64a41;
+        }
+
+        .fa-linkedin {
+            padding: 10px 14px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+            background-color: #292929;
+        }
+
+        .fa-linkedin:hover {
+            background-color: #0073a4;
+        }
+
+
+        .fa-instagram {
+            padding: 10px 14px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+            background-color: #292929;
+        }
+
+        .fa-instagram:hover {
+            background-color: #d42c65;
+        }
+    </style>
+</head>
+
+<body class="post-template-default single single-post postid-172 single-format-standard mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+    <div id="page" class="hfeed site mdl-layout mdl-layout--fixed-header">
+        <header id="masthead" class="site-header mdl-layout__header mdl-layout__header--scroll mdl-color--primary  ">
+            <div class="mdl-layout__content">
+                <div class="mdl-grid site-width mdl-grid--no-spacing">
+                    <div class="mdl-cell mdl-cell--8-col">
+                        <div class="mdl-layout--large-screen-only header-big-size  mdl-layout__header-row"></div>
+                        <div class="mdl-layout__header-row">
+                            <div class="site-title-wrap">
+                                <a class="home-link" href="https://www.rung.com.br/blog/" title="Rung" rel="home">
+                                    <img class="img-logo" src="http://www.rung.com.br/blog/wp-content/uploads/2017/08/logo-rung-blog.png" alt=Rung>                                                                    </a>
+                            </div>
+                        </div>
+                        <div class="mdl-layout--large-screen-only header-big-size mdl-layout__header-row  "></div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop text-center">
+                        <div class="mdl-layout--large-screen-only header-big-size mdl-layout__header-row  "></div>
+                        <form role="search" method="get" id="searchform" class="searchform mdl-color--white mdl-shadow--2dp" action="https://www.rung.com.br/blog/">
+                            <div class="mdl-textfield mdl-js-textfield mdl-color-text--primary">
+                                <input class="mdl-textfield__input" name="s" value="" type="text" required1 id="search" />
+                                <label class="mdl-textfield__label" for="search">O que você procura?</label>
+                                <span class="mdl-textfield__error">Please enter text!</span>
+                            </div>
+                            <button type="submit" class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored mdl-js-ripple-effect">
+  		<i class="material-icons">search</i>
+	</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="main" class="site-main">
+            <div class="mdl-grid site-width">
+                <div id="primary" class="content-area mdl-cell mdl-cell--9-col-desktop mdl-cell--9-col-tablet mdl-cell--4-col-phone">
+                    <div id="content" class="site-content" role="main">
+
+                        <article id="post-172" class="section--center mdl-card mdl-shadow--2dp post-172 post type-post status-publish format-standard has-post-thumbnail hentry category-para-voce tag-dicas tag-viagens">
+                            <header>
+                                <h1><a href="#" rel="bookmark">Viajando com o Rung</a></h1>
+                            </header>
+                            <div class="entry-thumb mdl-card__media mdl-shadow--2dp">
+                                <img width="853" height="853" src="https://www.rung.com.br/blog/wp-content/uploads/2017/08/cover-2.jpg" class="attachment-full size-full wp-post-image"
+                                    alt="Vai viajar? Confira 7 dicas de como planejar uma viagem bem sucedida" srcset="https://www.rung.com.br/blog/wp-content/uploads/2017/08/cover-2.jpg 853w, https://www.rung.com.br/blog/wp-content/uploads/2017/08/cover-2-150x150.jpg 150w, https://www.rung.com.br/blog/wp-content/uploads/2017/08/cover-2-300x300.jpg 300w, https://www.rung.com.br/blog/wp-content/uploads/2017/08/cover-2-768x768.jpg 768w"
+                                    sizes="(max-width: 853px) 100vw, 853px" /> </div>
+
+                            <div class="entry-content">
+                                <p>Agora com o Rung, planejar as suas viagens de férias ou a negócios ficou mais simples e rápido. Sem se preocupar em ir atrás das informações e buscar pelos menores preços, o Rung disponibiliza todas essas informações, para que você dedicar o seu tempo às coisas de maior importância no seu dia a dia.</p>
+                                <p>Sou um texto falando sobre o <a href="https://app.rung.com.br/integration/airbnb" target="_blank">Airbnb</a>. Nunc sodales ligula sit amet fringilla tincidunt. Sed at tristique quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam tellus ex, sagittis vitae eros at, lobortis tempus augue. Phasellus sed leo volutpat, rutrum ex a, mattis dui. Vestibulum laoreet sit amet lacus et finibus. Fusce vitae fringilla magna, at egestas elit.</p>
+                                <img style="display: flex; margin: 0 auto; padding-bottom: 10px;" src="http://i.imgur.com/wEjvDf0.png" />
+                                <p>Sou um texto falando sobre a <a href="https://app.rung.com.br/integration/forecast" target="_blank">Previsão do tempo</a>. Praesent ac purus dignissim, consectetur diam non, ullamcorper elit. Etiam dignissim magna et facilisis tempor. Curabitur lacinia aliquam luctus. Etiam sit amet condimentum justo. Praesent pretium dolor suscipit lobortis aliquam. Integer ultricies at ipsum a dapibus. Cras nisl erat, vulputate ut mauris vitae, lobortis congue lectus.</p>
+                                <img style="display: flex; margin: 0 auto; padding-bottom: 10px;" src="http://i.imgur.com/GJ5ONvD.png" />
+                                <p>Sou um texto falando sobre o <a href="https://app.rung.com.br/integration/travel-packages" target="_blank">Pacote de Viagens</a>. Maecenas lobortis euismod blandit. Maecenas tincidunt velit vel augue convallis, eu hendrerit purus aliquam. Nulla facilisi. Proin scelerisque dui id purus tristique sollicitudin. Phasellus molestie nisl auctor fermentum vehicula. Pellentesque eu velit molestie, pellentesque magna eget, semper orci. Fusce quam justo, euismod id feugiat at, dapibus in magna.</p>
+                                <img style="display: flex; margin: 0 auto; padding-bottom: 10px;" src="http://fluig.ngi.com.br/webdesk/streamcontrol/?WDCompanyId=1&WDNrDocto=6440&WDNrVersao=1000&thumbnail=640_AUTO" />
+                                <p>Sou um texto falando sobre o <a href="https://app.rung.com.br/integration/money-quotation" target="_blank">Cotação de moedas</a>. Proin pellentesque pharetra magna, sit amet feugiat lectus tincidunt eu. Nulla gravida et justo sit amet mattis. Integer semper velit ut ex viverra sollicitudin. Aenean justo dui, pulvinar ut ante et, eleifend euismod dui. Quisque pretium justo eu sodales ultricies. Sed ultrices velit non neque faucibus finibus. Praesent posuere quam eu elit suscipit tincidunt.</p>
+                                <img style="display: flex; margin: 0 auto; padding-bottom: 10px;" src="http://i.imgur.com/rBstTlo.png" />
+                                <p>Sou um texto falando sobre o <a href="https://app.rung.com.br/integration/cvc" target="_blank">CVC</a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus blandit sodales. Nulla condimentum sit amet elit in tincidunt. Aliquam dapibus, odio vitae egestas accumsan, eros nibh tempor justo, vitae pharetra nisi erat et metus. Nam interdum nulla vitae dictum pharetra.</p>
+                                <img style="display: flex; margin: 0 auto; padding-bottom: 10px;" src="http://i.imgur.com/hik4JIF.png" />
+                                <h2 style="text-align: center;">Cadastre-se agora no Rung e experimente nossas funcionalidades :)</h2>
+
+                                <div id="dpsp-content-bottom" class="dpsp-content-wrapper dpsp-shape-rectangular dpsp-column-auto dpsp-has-spacing dpsp-hide-on-mobile dpsp-button-style-1 dpsp-has-icon-background dpsp-has-button-background">
+                                    <p class="dpsp-share-text">Compartilhe</p>
+                                    <ul class="dpsp-networks-btns-wrapper dpsp-networks-btns-content">
+                                        <li><a rel="nofollow" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.rung.com.br%2Fblog%2Fdicas-planejar-viagem%2F&t=Vai+viajar%3F+Confira+7+dicas+de+como+planejar+uma+viagem+bem+sucedida"
+                                                class="dpsp-network-btn dpsp-facebook dpsp-first"><span class="dpsp-network-label-wrapper"><span class="dpsp-network-label">Facebook</span></span></a></li>
+                                        <li><a rel="nofollow" href="https://twitter.com/intent/tweet?text=Vai+viajar%3F+Confira+7+dicas+de+como+planejar+uma+viagem+bem+sucedida&url=https%3A%2F%2Fwww.rung.com.br%2Fblog%2Fdicas-planejar-viagem%2F"
+                                                class="dpsp-network-btn dpsp-twitter"><span class="dpsp-network-label-wrapper"><span class="dpsp-network-label">Twitter</span></span></a></li>
+                                        <li><a rel="nofollow" href="https://plus.google.com/share?url=https%3A%2F%2Fwww.rung.com.br%2Fblog%2Fdicas-planejar-viagem%2F"
+                                                class="dpsp-network-btn dpsp-google-plus"><span class="dpsp-network-label-wrapper"><span class="dpsp-network-label">Google+</span></span></a></li>
+                                        <li><a rel="nofollow" href="#" class="dpsp-network-btn dpsp-pinterest dpsp-last"><span class="dpsp-network-label-wrapper"><span class="dpsp-network-label">Pinterest</span></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                        <nav class="post-navigation mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+                            <div class="previous"><a href="https://www.rung.com.br/blog/organizar-viagem/" rel="prev"><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--grey mdl-color-text--white"> <i class="material-icons">arrow_back</i></button> Older</a></div>
+                            <div class="section-spacer"></div>
+                        </nav>
+
+
+
+                    </div>
+                </div>
+                <div id="primary-sidebar" class="sidebar-container mdl-cell mdl-cell--3-col-desktop mdl-cell--9-col-tablet mdl-cell--4-col-phone"
+                    role="complementary">
+                    <div class="sidebar-inner">
+                        <div class="widget-area">
+                            <aside id="text-7" class="widget mdl-card mdl-shadow--2dp widget_text">
+                                <h3 class="widget-title">Sobre nós</h3>
+                                <div class="textwidget">
+                                    <p>Somos o<strong> primeiro software </strong>de gestão de excepcionalidades do mundo, e
+                                        ajudamos pessoas e empresas na busca por <strong>oportunidades e ameaças</strong>                                        em sua rotina diária.</p>
+                                </div>
+                            </aside>
+                            <aside id="categories-2" class="widget mdl-card mdl-shadow--2dp widget_categories">
+                                <h3 class="widget-title">Categorias</h3>
+                                <ul>
+                                    <li class="cat-item cat-item-3"><a href="https://www.rung.com.br/blog/category/para-empresa/">Para sua empresa</a>
+                                    </li>
+                                    <li class="cat-item cat-item-1"><a href="https://www.rung.com.br/blog/category/para-voce/">Para você</a>
+                                    </li>
+                                </ul>
+                            </aside>
+                            <aside id="text-9" class="widget mdl-card mdl-shadow--2dp widget_text">
+                                <div class="textwidget">
+                                    <p><span style="text-align: center;"><br />
+<a href="http://www.rung.com.br/blog/tag/materiais-educativos/" target="_blank" rel="noopener"><img style="width: 100%; margin-top: -18px; margin-bottom: -18px;" src="http://www.rung.com.br/blog/wp-content/uploads/2017/08/mat-edu.png" /></a><br />
+</span></p>
+                                </div>
+                            </aside>
+                            <aside id="tag_cloud-3" class="widget mdl-card mdl-shadow--2dp widget_tag_cloud">
+                                <h3 class="widget-title">Tags</h3>
+                                <div class="tagcloud"><a href="https://www.rung.com.br/blog/tag/dicas/" class="tag-cloud-link tag-link-8 tag-link-position-1"
+                                        style="font-size: 17.333333333333pt;" aria-label="Dicas (4 itens)">Dicas</a>
+                                    <a href="https://www.rung.com.br/blog/tag/eficiencia/" class="tag-cloud-link tag-link-5 tag-link-position-2" style="font-size: 8pt;"
+                                        aria-label="Eficiência (1 item)">Eficiência</a>
+                                    <a href="https://www.rung.com.br/blog/tag/erp/" class="tag-cloud-link tag-link-10 tag-link-position-3" style="font-size: 12.2pt;"
+                                        aria-label="ERP (2 itens)">ERP</a>
+                                    <a href="https://www.rung.com.br/blog/tag/materiais-educativos/" class="tag-cloud-link tag-link-12 tag-link-position-4" style="font-size: 15pt;"
+                                        aria-label="Materiais educativos (3 itens)">Materiais educativos</a>
+                                    <a href="https://www.rung.com.br/blog/tag/planejamento/" class="tag-cloud-link tag-link-6 tag-link-position-5" style="font-size: 19.2pt;"
+                                        aria-label="Planejamento (5 itens)">Planejamento</a>
+                                    <a href="https://www.rung.com.br/blog/tag/produtividade/" class="tag-cloud-link tag-link-11 tag-link-position-6" style="font-size: 15pt;"
+                                        aria-label="Produtividade (3 itens)">Produtividade</a>
+                                    <a href="https://www.rung.com.br/blog/tag/tecnologia/" class="tag-cloud-link tag-link-7 tag-link-position-7" style="font-size: 22pt;"
+                                        aria-label="Tecnologia (7 itens)">Tecnologia</a>
+                                    <a href="https://www.rung.com.br/blog/tag/tomada-de-decisao/" class="tag-cloud-link tag-link-4 tag-link-position-8" style="font-size: 8pt;"
+                                        aria-label="Tomada de decisão (1 item)">Tomada de decisão</a>
+                                    <a href="https://www.rung.com.br/blog/tag/viagens/" class="tag-cloud-link tag-link-9 tag-link-position-9" style="font-size: 12.2pt;"
+                                        aria-label="Viagens (2 itens)">Viagens</a></div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <footer id="colophon" class="site-footer mdl-mega-footer" role="contentinfo">
+            <div class="mdl-grid footer-top footer-con full">
+                <div class="footer-col mdl-cell mdl-cell--3-col-desktop mdl-cell--9-col-tablet mdl-cell--4-col-phone">
+                    <div id="nav_menu-7" class="widget widget_nav_menu">
+                        <div class="menu-site-container">
+                            <ul id="menu-site" class="menu">
+                                <li id="menu-item-56" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56"><a target="_blank" href="http://www.rung.com.br/">Cadastre-se no Rung</a></li>
+                                <li id="menu-item-57" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57"><a target="_blank" href="http://www.rung.com.br/como-funciona.php">Como funciona</a></li>
+                                <li id="menu-item-58" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-58"><a target="_blank" href="http://www.rung.com.br/integracoes.php">Integrações</a></li>
+                                <li id="menu-item-59" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59"><a target="_blank" href="http://www.rung.com.br/precos.php">Planos e preços</a></li>
+                                <li id="menu-item-60" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60"><a target="_blank" href="http://www.rung.com.br/contato.php">Contato</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-col mdl-cell mdl-cell--3-col-desktop mdl-cell--9-col-tablet mdl-cell--4-col-phone">
+                    <div id="nav_menu-8" class="widget widget_nav_menu">
+                        <div class="menu-app-container">
+                            <ul id="menu-app" class="menu">
+                                <li id="menu-item-504" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-504"><a href="https://app.rung.com.br/store">Store</a></li>
+                                <li id="menu-item-505" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-505"><a href="http://www.rung.com.br/cursos.php">Cursos</a></li>
+                                <li id="menu-item-506" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-506"><a href="http://www.rung.com.br/blog/tag/materiais-educativos/">Materiais educativos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-col mdl-cell mdl-cell--3-col-desktop mdl-cell--9-col-tablet mdl-cell--4-col-phone">
+                    <div id="nav_menu-11" class="widget widget_nav_menu">
+                        <div class="menu-top-lidos-container">
+                            <ul id="menu-top-lidos" class="menu">
+                                <li id="menu-item-533" class="menu-item menu-item-type-post_type menu-item-object-post current-menu-item menu-item-533"><a href="https://www.rung.com.br/blog/dicas-planejar-viagem/">Vai viajar? Confira 7 dicas de como planejar uma viagem bem sucedida</a></li>
+                                <li id="menu-item-534" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-534"><a href="https://www.rung.com.br/blog/organizar-viagem/">Como organizar uma viagem com ajuda da tecnologia?</a></li>
+                                <li id="menu-item-535" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-535"><a href="https://www.rung.com.br/blog/efeito-bola-neve/">O que é o efeito bola de neve e por que você deve fugir dele?</a></li>
+                                <li id="menu-item-536" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-536"><a href="https://www.rung.com.br/blog/ebook-riscos/">eBook: tudo que você precisa entender sobre gestão de riscos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-col mdl-cell mdl-cell--3-col-desktop mdl-cell--9-col-tablet mdl-cell--4-col-phone">
+                    <div id="text-15" class="widget widget_text">
+                        <div class="textwidget"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mdl-color--grey-900 social-icons text-center">
+
+                <div class="footer-social-icons">
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com/rungbrasil" class="mdl-mini-footer--social-btn social-btn social-icon"
+                                target="_blank">	<i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/rungbrasil" class="social-icon" target="_blank"> <i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCi04okFsneTQDFX36YGFIng" class="social-icon" target="_blank"> <i class="fa fa-youtube"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company-beta/16166738/" class="social-icon" target="_blank"> <i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/rungbrasil/" class="social-icon" target="_blank"> <i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="mdl-color--black">
+                <div class="site-info full footer-con text-center">
+                    <a href="http://www.rung.com.br" target="_blank">Copyright © Rung - Todos os direitos reservados.</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

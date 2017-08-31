@@ -41,7 +41,8 @@ a {
     text-align: center;
 }
 
-.slide h1 {
+.slide h1,
+#sign-up h1 {
     font-weight: 100;
     font-size: 64px;
     letter-spacing: 7px;
@@ -49,7 +50,8 @@ a {
     padding-top: 170px;
 }
 
-.slide p {
+.slide p,
+#sign-up p {
     font-weight: 100;
     font-size: 20px;
     letter-spacing: 3px;
@@ -85,4 +87,48 @@ a {
 
 #erp {
     background-image: url(img/erp.jpg);
+}
+
+#sign-up {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #333333;
+}
+
+#sign-up label {
+    color: #333333;
+    width: 150px;
+    display: inline-block;
+}
+
+#sign-up input {
+    color: #333333;
+    width: 300px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+#sign-up ul {
+    width: 457px;
+    padding: 31px;
+    border: 1px solid #cccccc;
+    margin: 0 auto;
+}
+
+#sign-up li {
+    margin-bottom: 40px;
+}
+
+#sign-up li:last-child {
+    margin: 0;
+}
+
+.submit {
+    background: #4CAF50;
+    color: #FFFFFF !important;
+    border: 0px;
+    width: 150px !important;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
 }

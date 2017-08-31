@@ -1,132 +1,148 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 body, ul {
     margin: 0;
     padding: 0;
     font-family: Roboto;
-}
-
-body {
-    padding-bottom: 20px;
+    color: #FFFFFF;
 }
 
 a {
     text-decoration: none;
-    color: #1f57f9 !important;
+    color: #FFF9C4 !important;
 }
 
 .appbar {
-    background: #000000;
-    height: 64px;
-    width: 100%;
+    height: 34px;
+    width: calc(100% - 24px);
+    margin: 15px 12px;
 }
 
-.banner li {
+.logo {
+    width: 203px;
     float: left;
-    cursor: pointer;
-    width: calc(100% / 5);
-    list-style: none;
-    height: calc(100% - 64px);
+}
+
+.inspirations {
+    font-family: Permanent Marker;
+    font-size: 27px;
+    float: left;
+    margin: 0;
+}
+
+.slide {
     background-size: cover;
-    background-position: center;
-}
-
-.banner li .shadow {
-    background: #000000;
-    opacity: 0.2;
-    height: calc(100% - 84px);
-    width: calc(100% / 5);
-    z-index: 10;
-    position: absolute;
-    transition: opacity 0.3s;
-    float: left;
-    top: 64px;
-}
-
-.banner li:hover .shadow {
-    opacity: 0.6;
-}
-
-.banner li p {
-    color: #FFFFFF;
-    font-size: 24px;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: calc(100% - 54px);
+    padding: 0 27px;
+    margin-top: -64px;
+    z-index: -1;
     text-align: center;
-    margin-top: calc(700px / 2 - 54px);
-    z-index: 20;
-    position: relative;
 }
 
-.banner .travel {
-    background-image: url(img/travel.jpeg);
+.slide h1,
+#sign-up h1 {
+    font-weight: 100;
+    font-size: 64px;
+    letter-spacing: 7px;
+    margin: 0;
+    padding-top: 170px;
 }
 
-.banner .investments {
-    background-image: url(img/investments.jpeg);
+.slide p,
+#sign-up p {
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 64px;
+    margin-bottom: 50px;
 }
 
-.banner .entertainment {
-    background-image: url(img/entertainment.jpeg);
+.extensions a {
+    margin-left: 10px;
+    display: inline-block;
+    cursor: pointer;
 }
 
-.banner .shopping {
-    background-image: url(img/shopping.jpeg);
+.extensions img {
+    width: 100px;
 }
 
-.banner .erp {
+#travel {
+    background-image: url(img/travel.jpg);
+}
+
+#investments {
+    background-image: url(img/investments.jpg);
+}
+
+#entertainment {
+    background-image: url(img/entertainment.jpg);
+}
+
+#shopping {
+    background-image: url(img/shopping.jpg);
+}
+
+#erp {
     background-image: url(img/erp.jpg);
 }
 
-h1 {
-    text-align: center;
-    margin: 70px 0 0 0;
-}
-
-#travel,
-#investments,
-#entertainment,
-#shopping,
-#erp {
-    padding: 0 100px;
-    text-align: justify;
-}
-
-#travel h2,
-#investments h2,
-#entertainment h2,
-#shopping h2,
-#erp h2 {
-    margin-top: 40px;
-    font-weight: 400;
-}
-
-#travel p,
-#investments p,
-#entertainment p,
-#shopping p,
-#erp p {
-    font-weight: 100;
-}
-
-#travel span,
-#investments span,
-#entertainment span,
-#shopping span,
-#erp span {
-    font-size: 10px;
-}
-
-#travel div,
-#investments div,
-#entertainment div,
-#shopping div,
-#erp div {
+#sign-up {
+    background-image: url(img/signup.jpg);
+    background-position: center;
+    height: 100%;
+    width: 100%;
     text-align: center;
 }
 
-#travel div img,
-#investments div img,
-#entertainment div img,
-#shopping div img,
-#erp div img {
-    width: 100px;
-    margin-left: 10px;
+#sign-up label {
+    color: #333333;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+#sign-up input {
+    color: #333333;
+    width: 300px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+#sign-up ul {
+    width: 500px;
+    padding: 31px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+}
+
+#sign-up li {
+    margin-bottom: 40px;
+}
+
+#sign-up li:last-child {
+    margin: 0;
+}
+
+.submit {
+    background: #4CAF50;
+    color: #FFFFFF !important;
+    border: 0px;
+    width: 150px !important;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+}
+
+.social-media {
+    margin-top: 247px;
+}
+
+.social-media img {
+    margin-left: 47px;
+    background: #FFFFFF;
+    border-radius: 22px;
+    padding: 6px;
 }

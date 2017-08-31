@@ -90,16 +90,17 @@ a {
 }
 
 #sign-up {
+    background-image: url(img/signup.jpg);
+    background-position: center;
     height: 100%;
     width: 100%;
     text-align: center;
-    color: #333333;
 }
 
 #sign-up label {
     color: #333333;
-    width: 150px;
     display: inline-block;
+    margin-right: 40px;
 }
 
 #sign-up input {
@@ -110,10 +111,12 @@ a {
 }
 
 #sign-up ul {
-    width: 457px;
+    width: 500px;
     padding: 31px;
-    border: 1px solid #cccccc;
     margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
 }
 
 #sign-up li {
@@ -131,4 +134,15 @@ a {
     width: 150px !important;
     border-radius: 2px;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+}
+
+.social-media {
+    margin-top: 247px;
+}
+
+.social-media img {
+    margin-left: 47px;
+    background: #FFFFFF;
+    border-radius: 22px;
+    padding: 6px;
 }

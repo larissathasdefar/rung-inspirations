@@ -30,8 +30,7 @@ a {
     margin: 0;
 }
 
-#travel {
-    background-image: url(img/travel.jpg);
+.slide {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -42,15 +41,15 @@ a {
     text-align: center;
 }
 
-#travel h1 {
+.slide h1 {
     font-weight: 100;
     font-size: 64px;
     letter-spacing: 7px;
     margin: 0;
-    padding-top: calc(100% / 5);
+    padding-top: 170px;
 }
 
-#travel p {
+.slide p {
     font-weight: 100;
     font-size: 20px;
     letter-spacing: 3px;
@@ -66,4 +65,24 @@ a {
 
 .extensions img {
     width: 100px;
+}
+
+#travel {
+    background-image: url(img/travel.jpg);
+}
+
+#investments {
+    background-image: url(img/investments.jpg);
+}
+
+#entertainment {
+    background-image: url(img/entertainment.jpg);
+}
+
+#shopping {
+    background-image: url(img/shopping.jpg);
+}
+
+#erp {
+    background-image: url(img/erp.jpg);
 }
